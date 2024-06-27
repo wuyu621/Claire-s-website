@@ -1,0 +1,23 @@
+.out-box{
+    border:5px solid black;
+    width: 50%;
+    margin: 25%;
+    text-align: center;
+    background-color: #3AA6B9;
+}
+
+.list-box{
+    text-align: left;
+}
+
+.button{
+    margin: 20px;
+
+}
+
+body{
+    background-color: #F9F9E0;
+}
+
+h1{
+    color:#050C9C}
