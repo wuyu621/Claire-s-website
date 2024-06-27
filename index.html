@@ -21,7 +21,15 @@
 <input type="checkbox">
 <label> exercise</label><br>
 </div>
-<div ><button onclick="" class ="button">Complete all the task</button></div>
+<div><button onclick="displayText()" class ="button">Complete all the task</button></div>
+
+<div id="textField" style="display: none;">
+    <script>function displayText() {
+            var text = document.getElementById("textField");
+            text.style.display = "block";
+        }</script>
+   <h1>Ye, I can play !</h1>
+</div>
     </div>
 </body>
 </html>
